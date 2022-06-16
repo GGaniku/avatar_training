@@ -1,39 +1,33 @@
-**Avatar Training Python Project:
+**Avatar Training Python Project:**
 
-    What to do?
+What to do?
     - It's a game that simulates a training of a Avatar to dominating the 4 primary elements
-    - jogo que simula um treinamento de um Avatar para dominar os 4 elementos
     - 4 elements:
             --> Earth (E)
             --> Air (A)
             --> Water (W)
             --> Fire (F)
     - The opposing elements are Water and Fire (W and F) and Earth and Air (E and A)
-    - Os elementos opostos são Water e Fire (W e F) e Earth e Air (E e A)
 
-    Como funciona?
-    How it works:
+How it works:
     - The user must input which element he wants to train among the 4 existing ones
-    - O usuário deve sinalizar qual elemento quer treinar dentre os 4 existentes
-    	- The input of the element must be the initial letter of the element's name (ex.: E for Earth)
-	- The input only supports 1 element for time to do the training
-    	- O input do elemento deve ser pela inicial do nome do elemento (ex.: E para Earth)
-        - O input apenas suporta 1 elemento por vez para realizar o treinamento
+    	- The element input must be the initial letter of the element name (ex.: E for Earth)
+	    - The input only supports 1 element for time to do the training
 
-    - Depois disso, em um outro input, deve-se dizer quantos pontos (P) o treinamento obteve
-        - O input deve ser realizado com números inteiros, apenas
+    - After that, in another input, it must say how much points (P) the training got
+        - The input must to done only with integer numbers
 
-    Regras:
-    - A pontuação de todos os elementos começa valendo 0
-    - Ao adicionar o P para um elemento, a pontuação do elemento oposto é reduzido em P / 2 (pontos do elemento recém adicionado)
-        - Ex.: Tendo 100 pontos em Water e adicionando 100 pontos em Fire, a pontuação do Water sofre - 50 pontos (pois P do Fire / 2 = 50)
-    - O input para terminar o treinamento é X
-    - O valor de todos os elementos deve ser positivo. Se o resultado P de algum elemento der um valor negativo, então a pontuação passa a ser 0
-    - O Output do programa (após finalizado) deve apresentar a pontuação de todos os elementos com uma casa decimal (0.1)
-    - Se a pontuação de cada um dos elementos for maior que zero, então deve-se imprimir "Treinamento realizado com sucesso."
-    - Se não, deve-se imprimir "Realize mais treinamentos."
+    Rules:
+    - The score of all elements starts at 0 
+    - When adding the P to an element, the opposite element's score is reduced by P / 2 (points of the newly added element)
+        - Ex.: Taking 100 points in Water and adding 100 points in Fire, the score of Water suffers minus 50 points (because Fire's P / 2 = 50)
+    - The input to finish the training is 'X'
+    - The value of all elements must be positive. If the result P of some element get a negative value, than the score turns to 0
+    - The program's output (after finished) must print the score of all elements with one decimal place (1.0, for example)
+    - If the score of each one of elements to be greater than zero, than it must print "Training completed successfully"
+    - If no, it must print "Do more training!"
 
-    Regras de estrutura:
-    - Deve ter identação e comentários
-    - Todos os laços devem ser implementados com o comando while
-    - Não se pode usar listas, vetores, dicionários, etc.
+    Structure rules:
+    - Must have indentation and comments
+    - All loops must be implemented with the while statement
+    - You can't use lists, vectors, dictionaries, etc.
