@@ -1,6 +1,6 @@
 **Avatar Training Python Project:**
 
-What to do?
+    What to do?
     - It's a game that simulates a training of a Avatar to dominating the 4 primary elements
     - 4 elements:
             --> Earth (E)
@@ -9,7 +9,7 @@ What to do?
             --> Fire (F)
     - The opposing elements are Water and Fire (W and F) and Earth and Air (E and A)
 
-How it works:
+    How it works:
     - The user must input which element he wants to train among the 4 existing ones
     	- The element input must be the initial letter of the element name (ex.: E for Earth)
 	    - The input only supports 1 element for time to do the training

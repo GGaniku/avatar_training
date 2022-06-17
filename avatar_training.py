@@ -55,4 +55,3 @@ if (W == 0) or (F == 0) or (E == 0) or (A == 0):
     print('\033[31mRealize mais treinamentos...\033[m')
 else:
     print('\033[32mTreinamento realizado com sucesso!!\033[m')
-
